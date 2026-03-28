@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayoub Ghdiri — Designer & Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-canvas"></div>
+
+<div class="wrapper">
+
+<!-- ── NAV ── -->
+<nav>
+  <a href="#hero" class="nav-logo">
+  <img src="AG.png" alt="Ayoub Ghdiri Logo">
+</a>
+  <ul class="nav-links">
+    <li><a href="#design">Design</a></li>
+    <li><a href="#dev">Development</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <p class="hero-eyebrow"></p>
+      <h1 class="hero-name">Ayoub<br><em>Ghdiri</em></h1>
+      <p class="hero-subtitle">Designer & Software Engineering Student — I design and build modern digital experiences that are both beautiful and functional.</p>
+      <a href="#design" class="hero-cta">
+        View Work
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <div class="hero-right">
+      <div class="hero-stat-row">
+        <div class="glass hero-stat">
+          <div class="num">30+</div>
+          <div class="label">Design Projects</div>
+        </div>
+        <div class="glass hero-stat">
+          <div class="num">3+</div>
+          <div class="label">Dev Projects</div>
+        </div>
+      </div>
+      <div class="glass hero-badge">
+        <span class="hero-badge-dot"></span>
+        <span class="hero-badge-text"><strong>Available</strong> for freelance work</span>
+      </div>
+      <div class="glass hero-stat" style="padding:24px 28px;">
+        <div style="font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--dark-50);margin-bottom:8px;">Currently Studying</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:500;">Software Engineering</div>
+        <div style="font-size:0.85rem;color:var(--dark-50);margin-top:4px;">ISIMa · Tunisia</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ── DESIGN SECTION ── -->
+<section id="design">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-kicker">Creative Work</p>
+      <h2 class="section-title">Design <em>Projects</em></h2>
+    </div>
+    <div class="design-grid">
+
+      <!-- Card 1 -->
+      <div class="glass project-card reveal reveal-delay-1" onclick="openModal('brand1')">
+        <div class="thumb">
+          <div class="thumb-placeholder" style="background:linear-gradient(135deg,#F5E6C8,#EAD7B7);"><img src="darlhout.jpg" alt=""></div>
+        </div>
+        <div class="proj-meta">
+          <span class="proj-tag">Social-Media</span>
+          <div class="proj-title">Seafood Restaurant </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="glass project-card reveal reveal-delay-2" onclick="openModal('poster1')">
+        <div class="thumb">
+          <div class="thumb-placeholder" style="background:linear-gradient(135deg,#EAD7B7,#D6BFA3);"><img src="isima.jpg" alt=""></div>
+        </div>
+        <div class="proj-meta">
+          <span class="proj-tag">Webmaster</span>
+          <div class="proj-title">IEEE ISIMA SB</div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="glass project-card reveal reveal-delay-3" onclick="openModal('social1')">
+        <div class="thumb">
+          <div class="thumb-placeholder" style="background:linear-gradient(135deg,#FFFBD4,#F5E6C8);"><img src="rentway.jpg" alt=""></div>
+        </div>
+        <div class="proj-meta">
+          <span class="proj-tag">Poster Design</span>
+          <div class="proj-title">RentWay</div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="glass project-card reveal reveal-delay-1" onclick="openModal('brand2')">
+        <div class="thumb">
+          <div class="thumb-placeholder" style="background:linear-gradient(135deg,#D6BFA3,#EAD7B7);"><img src="sunset.jpg" alt=""></div>
+        </div>
+        <div class="proj-meta">
+          <span class="proj-tag">Social-Media</span>
+          <div class="proj-title">Sunset Gaming</div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="glass project-card reveal reveal-delay-2" onclick="openModal('poster2')">
+        <div class="thumb">
+          <div class="thumb-placeholder" style="background:linear-gradient(135deg,#F5E6C8,#D6BFA3);"><img src="random.jpg" alt=""></div>
+        </div>
+        <div class="proj-meta">
+          <span class="proj-tag">Poster</span>
+          <div class="proj-title">Tunisian art</div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="glass project-card reveal reveal-delay-3" onclick="openModal('ui1')">
+        <div class="thumb">
+          <div class="thumb-placeholder" style="background:linear-gradient(135deg,#EAD7B7,#FFFBD4);"><img src="lespadon.jpg" alt=""></div>
+        </div>
+        <div class="proj-meta">
+          <span class="proj-tag">Poster Design</span>
+          <div class="proj-title">L'espadon</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ── DEV SECTION ── -->
+<section id="dev">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-kicker">Engineering</p>
+      <h2 class="section-title">Development <em>Work</em></h2>
+    </div>
+    <div class="dev-grid">
+
+      <!-- E7jez – wide card -->
+      <div class="glass dev-card wide reveal">
+        <div>
+          <div class="dev-number">01</div>
+          <div class="dev-title">E7jez</div>
+          <div class="dev-role">Front-End · Booking Application</div>
+          <p class="dev-desc">
+            Developed the front-end of E7jez, a booking application designed to simplify appointment scheduling. Focused on creating responsive user interfaces, smooth navigation, interactive booking forms, and seamless integration with the back-end API.
+          </p>
+          <div class="tech-pills">
+            <span class="tech-pill">HTML</span>
+            <span class="tech-pill">CSS</span>
+            <span class="tech-pill">JavaScript</span>
+            <span class="tech-pill">Bootstrap</span>
+            <span class="tech-pill">Jinja2</span>
+          </div>
+        </div>
+<div class="dev-mockup">
+  <img src="banner.jpg" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:12px;aspect-ratio:16/9;display:block;">
+</div>
+      </div>
+
+      <!-- Internship -->
+<div class="glass dev-card reveal reveal-delay-1">
+  <div class="dev-number">02</div>
+  <div class="dev-title">ESIA Internship</div>
+  <div class="dev-role">Full-Stack Developer Intern · Web Applications</div>
+  <p class="dev-desc">
+    Completed an internship at ESIA where I developed and improved web applications using Python and Flask. Worked on building dynamic interfaces, handling backend logic, managing databases, and creating responsive UI components.
+  </p>
+  <div class="tech-pills">
+    <span class="tech-pill">Python</span>
+    <span class="tech-pill">Flask</span>
+    <span class="tech-pill">HTML</span>
+    <span class="tech-pill">CSS</span>
+    <span class="tech-pill">JavaScript</span>
+    <span class="tech-pill">MySQL</span>
+  </div>
+</div>
+
+      <!-- School Management -->
+<div class="glass dev-card reveal reveal-delay-2">
+  <div class="dev-number">03</div>
+  <div class="dev-title">EduManage</div>
+  <div class="dev-role">Full-Stack · School Management Application</div>
+  <p class="dev-desc">
+    Developed a complete school management application for administrative use, enabling efficient handling of student records, class organization, payments, and daily operations through a simple and intuitive interface.
+  </p>
+  <div class="tech-pills">
+    <span class="tech-pill">Python</span>
+    <span class="tech-pill">Flask</span>
+    <span class="tech-pill">MySQL</span>
+    <span class="tech-pill">JavaScript</span>
+    <span class="tech-pill">CSS</span>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-kicker">Expertise</p>
+      <h2 class="section-title">Skills & <em>Tools</em></h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="glass skill-block reveal reveal-delay-1">
+        <div class="skill-block-icon">⌨️</div>
+        <div class="skill-block-title">Technical</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">C</span>
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">HTML & CSS</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">SQLAlchemy</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">Git & GitHub</span>
+          <span class="skill-pill">REST APIs</span>
+          
+        </div>
+      </div>
+
+      <div class="glass skill-block reveal reveal-delay-2">
+        <div class="skill-block-icon">🎨</div>
+        <div class="skill-block-title">Design</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Adobe Photoshop</span>
+          <span class="skill-pill">Adobe Illustrator</span>
+          <span class="skill-pill">Branding</span>
+          <span class="skill-pill">UI Design</span>
+          <span class="skill-pill">Typography</span>
+          <span class="skill-pill">Logo Design</span>
+          <span class="skill-pill">Social Media</span>
+          <span class="skill-pill">Poster Design</span>
+          <span class="skill-pill">Visual Identity</span>
+        </div>
+      </div>
+
+<div class="glass skill-block reveal reveal-delay-3">
+  <div class="skill-block-icon">📚</div>
+  <div class="skill-block-title">Education</div>
+  <div class="skill-pills">
+    <span class="skill-pill">ISIMA · 2nd Year GLSI</span>
+    <span class="skill-pill">Génie Logiciel</span>
+    <span class="skill-pill">Systèmes d'Information</span>
+    <span class="skill-pill">Programmation</span>
+    <span class="skill-pill">Bases de Données</span>
+    <span class="skill-pill">Développement Web</span>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+<div class="container">
+  <div class="about-inner">
+    <div class="reveal">
+      <div class="glass about-portrait"><img src="cover.png" alt=""></div>
+    </div>
+    <div class="about-text reveal reveal-delay-2">
+      <p class="section-kicker" style="margin-bottom:12px;">About Me</p>
+      <h2>Where <em>design</em> meets development</h2>
+      <p>I'm Ayoub Ghdiri — a creative developer and designer based in Tunisia. I specialize in crafting modern visuals and building functional web applications that deliver real value.</p>
+      
+      <div class="highlight">
+        "I design with a developer’s mindset and build with a designer’s eye."
+      </div>
+      
+      <p>Currently a 2nd-year GLSI (Software Engineering & Information Systems) student at ISIMA, I combine technical skills in Python/Flask and front-end development with strong visual design expertise.</p>
+      
+      <p>As the Webmaster of the IEEE ISIMA Student Branch, I lead the development of the branch’s digital presence — from building the official website to designing visual content and ensuring a consistent, modern brand identity across different activities and chapters.</p>
+      
+      <p>From social media campaigns and branding to full web applications, I focus on creating clean, engaging, and user-centered experiences that are both aesthetic and practical.</p>
+      
+      <p>Alongside my studies, I work on freelance projects and continuously push my skills through real-world challenges in both design and development.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="reveal">
+        <p class="section-kicker" style="margin-bottom:12px;">Get In Touch</p>
+        <h2 class="contact-left" style="">Let's create something <em>together</em></h2>
+        <p style="color:var(--dark-50);line-height:1.75;font-weight:300;margin:16px 0 28px;">Whether you need a brand identity, a digital product, or full-stack development — I'm here to bring your ideas to life.</p>
+        <div class="available-badge">
+          <span class="avail-dot"></span>
+          Available for freelance work
+        </div>
+      </div>
+      <div class="contact-links reveal reveal-delay-2">
+        <a href="mailto:ayoub.ghdiri@ieee.org" class="glass contact-link">
+          <div class="contact-link-icon">✉</div>
+          <div>
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-text">ayoub.ghdiri@ieee.org</div>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/ayoub-ghdiri-68a422260/" target="_blank" class="glass contact-link">
+          <div class="contact-link-icon">in</div>
+          <div>
+            <div class="contact-link-label">LinkedIn</div>
+            <div class="contact-link-text">Ayoub Ghdiri</div>
+          </div>
+        </a>
+        <a href="https://wa.me/21693778619" target="_blank" class="glass contact-link">
+          <div class="contact-link-icon">📱</div>
+          <div>
+            <div class="contact-link-label">WhatsApp</div>
+            <div class="contact-link-text">+216 93 778 619</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 <span>Ayoub Ghdiri</span> — Designed & Built with care</p>
+</footer>
+
+</div><!-- /wrapper -->
+
+<!-- ── MODALS ── -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal-box" id="modalBox">
+    <button class="modal-close" onclick="closeModalDirect()">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
